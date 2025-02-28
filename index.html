@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venue</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+<body>
+
+    <div class="load" id="load">
+        <div class="loading"></div>
+    </div>
+    <div class="alone" id="alone">
+        <div class="fader" id="fader">
+            <div class="cancel" id="canc" onclick="cancle()">❌</div>
+            <div class="part1" id="part1">
+                <div class="idk">
+                    <p>Talk to us</p>
+                    <h1>Let's have a discussion</h1>
+                </div>
+                <form>
+                    <input type="text" placeholder="Your name...">
+                    <input type="text" placeholder="Title...">
+                    <input type="text" placeholder="Your message...">
+                    <button>Send Message</button>
+                </form>
+            </div>
+            <div class="part2">
+                <div class="drop1">
+                    <p>More About Us</p>
+                    <h3>Venue Company</h3>
+                </div>
+                <div class="drop2">
+                    <p>Etiam viverra nibh at lorem hendrerit porta non nec ligula. Donec hendrerit porttitor pretium. Suspendisse fermentum nec risus eu bibendum.
+                    </p>
+                </div>
+                <div class="drop3">
+                    <p><b>Phone:</b> +250722954783</p>
+                    <p><b>Email:</b> tupyiro@gmail.com</p>
+                    <p><b>Adress:</b> karabaye</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="upper"><a href="#" id="a">></a></div>
+    <div class="head">
+
+        <!-- nav -->
+        <div class="header" id="nav" style="transition: .5s;">
+
+            <div class="logo">
+                <a href=""><img src="./img/logo.png" alt=""></a>
+            </div>
+
+            <div class="links">
+                <li>
+                    <a href="#">Home</a>
+                    <a href="#">Most Visited</a>
+                    <a href="#blck">Blog Entities</a>
+                    <a href="#car">Our service</a>
+                    <a href="#con">Contact us</a>
+                </li>
+            </div>
+        </div>
+
+        <!-- banner -->
+        <div class="banner">
+
+            <div class="img">
+                <img src="./img/main_banner.jpg" alt="">
+            </div>
+
+            <div class="words">
+                <div class="line"></div>
+
+                <div class="p">
+                    <h1>Best Finder For You</h1>
+                    <p>Suspendisse eu lorem massa. Integer sit amet posuere tellus de toro.</p>
+                    <a href="#money">Discover more</a>
+                </div>
+            </div>
+
+            <div class="inputs">
+                <div class="input">
+                    <form>
+                        <input type="text" name="" id="" placeholder="Your Name...">
+                        <input type="text" name="" id="" placeholder="Type Location...">
+                        <select name="" id="" style="color: gray; margin-right: 5px;">
+                            <option value="" style="color: gray;">Select Category...</option>
+                            <option value="" style="color: gray;">Shops</option>
+                            <option value="" style="color: gray;">Hotel</option>
+                            <option value="" style="color: gray;">Restaurants</option>
+                            <option value="" style="color: gray;">Events</option>
+                            <option value="" style="color: gray;">Fitness</option>
+                            <option value="" style="color: gray;">cafe</option>
+                        </select>
+                        <input type="button" name="" id="" value="Search">
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+<div class="money" id="money"></div>
+
+    <!-- body -->
+
+    <div class="body">
+
+        <div class="intro">
+            <p class="pp" id="pp">Popular Places</p>
+            <p>Integer sapien odio</p>
+        </div>
+
+        <div class="slide-show" id="show">
+        <div class="slide1" id="slide">
+            <div class="slides"><img src="./img/popular_item_1.jpg" alt="">
+                <div class="div">
+                <p>Marius Tempus</p>
+                <div class="last">
+                <p class="lis" style="font-size: 12px;">76 listening</p>
+                <h5><a href="#">+</a></h5>
+                </div>
+            </div>
+            </div>
+            <div class="slides"><img src="./img/popular_item_2.jpg" alt="">
+                <div class="div">
+                <p>Aenean dolor</p>
+                <div class="last">
+                <p class="lis" style="font-size: 12px;">18 listening</p>
+                <h5><a href="#">+</a></h5>
+                </div>
+            </div>
+            </div>
+            <div class="slides"><img src="./img/popular_item_3.jpg" alt="">
+                <div class="div">
+                <p>Nunc at quam</p>
+                <div class="last">
+                <p class="lis" style="font-size: 12px;">55 listening</p>
+                <h5><a href="#">+</a></h5>
+                </div>
+            </div>
+            </div>
+            <div class="slides"><img src="./img/popular_item_4.jpg" alt="">
+                <div class="div">
+                <p>Fusce ac turpis</p>
+                <div class="last">
+                <p class="lis" style="font-size: 12px;">66 listening</p>
+                <h5><a href="#">+</a></h5>
+                </div>
+            </div>
+            </div>
+            <div class="slides"><img src="./img/popular_item_5.jpg" alt="">
+                <div class="div">
+                <p>Lorem Ipsum</p>
+                <div class="last">
+                <p class="lis" style="font-size: 12px;">76 listening</p>
+                <h5><a href="#">+</a></h5>
+                </div>
+            </div>
+            </div>
+        </div><br>
+        <div class="slide2" id="slide1">
+            <div class="slides"><img src="./img/popular_item_1.jpg" alt="">
+                <div class="div">
+                <p>Marius Tempus</p>
+                <div class="last">
+                <p class="lis" style="font-size: 12px;">76 listening</p>
+                <h5><a href="#">+</a></h5>
+                </div>
+            </div>
+            </div>
+            <div class="slides"><img src="./img/popular_item_2.jpg" alt="">
+                <div class="div">
+                <p>Aenean dolor</p>
+                <div class="last">
+                <p class="lis" style="font-size: 12px;">18 listening</p>
+                <h5><a href="#">+</a></h5>
+                </div>
+            </div>
+            </div>
+            <div class="slides"><img src="./img/popular_item_3.jpg" alt="">
+                <div class="div">
+                <p>Nunc at quam</p>
+                <div class="last">
+                <p class="lis" style="font-size: 12px;">55 listening</p>
+                <h5><a href="#">+</a></h5>
+                </div>
+            </div>
+            </div>
+            <div class="slides"><img src="./img/popular_item_4.jpg" alt="">
+                <div class="div">
+                <p>Fusce ac turpis</p>
+                <div class="last">
+                <p class="lis" style="font-size: 12px;">66 listening</p>
+                <h5><a href="#">+</a></h5>
+                </div>
+            </div>
+            </div>
+            <div class="slides"><img src="./img/popular_item_5.jpg" alt="">
+                <div class="div">
+                <p>Lorem Ipsum</p>
+                <div class="last">
+                <p class="lis" style="font-size: 12px;">76 listening</p>
+                <h5><a href="#">+</a></h5>
+                </div>
+            </div>
+            </div>
+        </div><br>
+        <div class="slide3" id="slide2">
+            <div class="slides"><img src="./img/popular_item_1.jpg" alt="">
+                <div class="div">
+                <p>Marius Tempus</p>
+                <div class="last">
+                <p class="lis" style="font-size: 12px;">76 listening</p>
+                <h5><a href="#">+</a></h5>
+                </div>
+            </div>
+            </div>
+            <div class="slides"><img src="./img/popular_item_2.jpg" alt="">
+                <div class="div">
+                <p>Aenean dolor</p>
+                <div class="last">
+                <p class="lis" style="font-size: 12px;">18 listening</p>
+                <h5><a href="#">+</a></h5>
+                </div>
+            </div>
+            </div>
+            <div class="slides"><img src="./img/popular_item_3.jpg" alt="">
+                <div class="div">
+                <p>Nunc at quam</p>
+                <div class="last">
+                <p class="lis" style="font-size: 12px;">55 listening</p>
+                <h5><a href="#">+</a></h5>
+                </div>
+            </div>
+            </div>
+            <div class="slides"><img src="./img/popular_item_4.jpg" alt="">
+                <div class="div">
+                <p>Fusce ac turpis</p>
+                <div class="last">
+                <p class="lis" style="font-size: 12px;">66 listening</p>
+                <h5><a href="#">+</a></h5>
+                </div>
+            </div>
+            </div>
+            <div class="slides"><img src="./img/popular_item_5.jpg" alt="">
+                <div class="div">
+                <p>Lorem Ipsum</p>
+                <div class="last">
+                <p class="lis" style="font-size: 12px;">76 listening</p>
+                <h5><a href="#">+</a></h5>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    <div class="buttons">
+        <div class="circle" id="one"></div>
+        <div class="circle" id="two"></div>
+        <div class="circle" id="three"></div>
+    </div>
+    </div>
+
+
+<div class="blck" id="blck"></div>
+    <div class="nxt">
+        <div class="intro">
+            <p class="pp">Featured Places</p>
+            <p>Praesent nec dui sed urna</p>
+        </div>
+
+        <div class="images">
+            <div class="cat">
+                <div class="img"><img src="./img/featured_item_1.jpg" alt=""></div>
+                <div class="onother">
+                    <h3>Lorem ipsum</h3>
+                    <p class="pdd" style="color: #4883ff;">Category 1</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit odio voluptas quo voluptate facilis totam?</p>
+                </div>
+                <div class="favor">
+                    <a href="#">ADD TO FAVORITES</a>
+                    <a href="#">ADD TO FAVORITES</a>
+                </div>
+            </div>
+            <div class="cat">
+                <div class="img"><img src="./img/featured_item_2.jpg" alt=""></div>
+                <div class="onother">
+                    <h3>Lorem ipsum</h3>
+                    <p class="pdd" style="color: #4883ff;">Category 1</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit odio voluptas quo voluptate facilis totam?</p>
+                </div>
+                <div class="favor">
+                    <a href="#">ADD TO FAVORITES</a>
+                    <a href="#">ADD TO FAVORITES</a>
+                </div>
+            </div>
+            <div class="cat">
+                <div class="img"><img src="./img/featured_item_3.jpg" alt=""></div>
+                <div class="onother">
+                    <h3>Lorem ipsum</h3>
+                    <p class="pdd" style="color: #4883ff;">Category 1</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit odio voluptas quo voluptate facilis totam?</p>
+                </div>
+                <div class="favor">
+                    <a href="#">ADD TO FAVORITES</a>
+                    <a href="#">ADD TO FAVORITES</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<div class="car" id="car"></div>
+    <div class="service">
+        <div class="intro">
+            <p class="pp">Our service</p>
+            <p>Best Template Site</p>
+        </div>
+
+        <div class="design">
+            <div class="uno">
+                <div class="mage"><img src="./img/service_icon_1.png" alt=""></div>
+                <div class="h1">
+                    <h1>High quality design</h1>
+                    <p>Etiam viverra nibh at lorem hendrerit porta non nec ligula. Donec hendrerit porttitor pretium. Suspendisse fermentum nec risus.</p>
+                </div>
+            </div>
+            <div class="uno">
+                <div class="mage"><img src="./img/service_icon_2.png" alt=""></div>
+                <div class="h1">
+                    <h1>Fully Customizable</h1>
+                    <p>Etiam viverra nibh at lorem hendrerit porta non nec ligula. Donec hendrerit porttitor pretium. Suspendisse fermentum nec risus.</p>
+                </div>
+            </div>
+            <div class="uno">
+                <div class="mage"><img src="./img/service_icon_3.png" alt=""></div>
+                <div class="h1">
+                    <h1>Best HTML CSS Layout</h1>
+                    <p>Etiam viverra nibh at lorem hendrerit porta non nec ligula. Donec hendrerit porttitor pretium. Suspendisse fermentum nec risus.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="ligne"></div>
+
+        <div class="template">
+            <div class="right">
+                <h1>In hac habitasse platea dictumst</h1>
+                <p>Aenean hendrerit metus leo, quis viverra purus condimentum nec. Pellentesque a sem semper, lobortis mauris non, varius urna. 
+                    Quisque sodales purus eu tellus fringilla.Mauris sit amet quam congue, pulvinar urna et, 
+                    congue diam. Suspendisse eu lorem massa. Integer sit amet posuere tellus, id efficitur leo
+                    .In hac habitasse platea dictumst</p>
+                <button>Discover More</button>
+
+            </div>
+            <div class="left">
+                <div class="destroy">
+                    <div class="fist open" style="transition: .8s;">
+                        <div class="inner" id="inner">
+                            <div class="wad"><h5>Moreno di quantom</h5></div>
+                            <div class="circ" id="circ" style="background: #4883ff;"></div>
+                        </div>
+                        <div class="outer" id="outer">
+                            <p>Nulla eget aliquet dui, vitae tincidunt nulla. Sed sagittis odio vitae auctor volutpat. In semper ex neque, ut hendrerit mauris rutrum eget. Integer consectetur neque eu enim dictum porta. Sed et risus ac sapien congue mattis.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="fist" style="transition: .8s;">
+                        <div class="inner" id="inner1">
+                            <div class="wad"><h5>Moreno di quantom</h5></div>
+                            <div class="circ" id="circ1"></div>
+                        </div>
+                        <div class="outer" id="outer1">
+                            <p>Integer vel augue arcu. Fusce ac turpis cursus, malesuada nulla quis, lobortis dui. Etiam blandit, erat efficitur rhoncus pellentesque, ligula turpis tempor dolor.</p>
+                        </div>
+                    </div>
+                    <div class="fist" style="transition: .8s;">
+                        <div class="inner" id="inner2">
+                            <div class="wad"><h5>Moreno di quantom</h5></div>
+                            <div class="circ" id="circ2"></div>
+                        </div>
+                        <div class="outer" id="outer2">
+                            <p>Nullam nibh lacus, rhoncus sit amet feugiat vel, porttitor sit amet nibh. Pellentesque feugiat justo nec enim pretium, sed faucibus lacus aliquam. Sed ac interdum mauris.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="video">
+        <video autoplay loop muted>
+            <source src="./img/highway-loop.mp4">  
+        </video>
+        <div class="funk">
+            <p>Video Presentation</p>
+            <h4>Sed et risus ac sapien congue mattis.</h4>
+            <h5><a href="https://www.youtube.com/">▶</a></h5>
+        </div>
+    </div>
+
+    <div class="pay">
+        <div class="intro">
+            <p class="pp">Pricing Tables</p>
+            <p>Duis molestie ipsum id faucibus fermentum</p>
+        </div>
+
+        <div class="payable">
+            <div class="plan">
+                <div class="full">
+                    <div class="starter">
+                        <h5>Starter Plan</h5>
+                        <h2>$25</h2>
+                        <p>/monthly</p>
+                    </div>
+                    <div class="bleach">
+                        <p>
+                            100 Suspendisse dapibus <br><br>
+                            10x Paleo celiac enamel <br><br>
+                            Williamsburg organic post ironic <br><br>
+                            Helvetica pinterest yuccie <br><br>
+                            Plaid shabby chic godard <br><br><br>
+                        </p>
+                        <button>Buy it now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="plan">
+                <div class="full">
+                    <div class="starter">
+                        <h5>Premium Plan</h5>
+                        <h2>$25</h2>
+                        <p>/monthly</p>
+                    </div>
+                    <div class="bleach">
+                        <p>
+                            100 Suspendisse dapibus <br><br>
+                            10x Paleo celiac enamel <br><br>
+                            Williamsburg organic post ironic <br><br>
+                            Helvetica pinterest yuccie <br><br>
+                            Plaid shabby chic godard <br><br><br>
+                        </p>
+                        <button>Buy it now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="plan">
+                <div class="full">
+                    <div class="starter">
+                        <h5>Advanced Plan</h5>
+                        <h2>$25</h2>
+                        <p>/monthly</p>
+                    </div>
+                    <div class="bleach">
+                        <p>
+                            100 Suspendisse dapibus <br><br>
+                            10x Paleo celiac enamel <br><br>
+                            Williamsburg organic post ironic <br><br>
+                            Helvetica pinterest yuccie <br><br>
+                            Plaid shabby chic godard <br><br><br>
+                        </p>
+                        <button>Buy it now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="cont" id="con"></div>
+    <div class="contact">
+        <div class="intro">
+            <p class="pp">Contact Us</p>
+            <p>Vivamus nec vehicula felis</p>
+        </div>
+
+
+        <div class="finals">
+            <button onclick="fade()">Talk To Us</button>
+        </div>
+
+
+
+
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="about-veno">
+                        <div class="logo">
+                            <img src="img/footer_logo.png" alt="Venue Logo" style="height: 30px;">
+                        </div>
+                        <p>Mauris sit amet quam congue, pulvinar urna et, congue diam. <br> Suspendisse eu lorem massa. Integer sit amet posuere tellus, id <br> onclick="cancle()" efficitur  leo. In hac habitasse platea dictumst.</p>
+                        <ul class="social-icons">
+                            <li>
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-rss"></i></a>
+                                <a href="#"><i class="fa fa-dribbble"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="useful-links">
+                        <div class="footer-heading">
+                            <h4>Useful Links</h4>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-stop"></i>Help FAQs</a></li>
+                                    <li><a href="#"><i class="fa fa-stop"></i>Register</a></li>
+                                    <li><a href="#"><i class="fa fa-stop"></i>Login</a></li>
+                                    <li><a href="#"><i class="fa fa-stop"></i>My Profile</a></li>
+                                    <li><a href="#"><i class="fa fa-stop"></i>How It Works?</a></li>
+                                    <li><a href="#"><i class="fa fa-stop"></i>More About Us</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-stop"></i>Our Clients</a></li>
+                                    <li><a href="#"><i class="fa fa-stop"></i>Partnerships</a></li>
+                                    <li><a href="#"><i class="fa fa-stop"></i>Blog Entries</a></li>
+                                    <li><a href="#"><i class="fa fa-stop"></i>Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="contact-info">
+                        <div class="footer-heading">
+                            <h4>Contact Information</h4>
+                        </div>
+                        <p>Praesent iaculis gravida elementum. Proin fermentum neque facilisis semper pharetra. Sed vestibulum vehicula tincidunt.</p>
+                        <ul>
+                            <li><span>Phone:</span><a href="#">0722954783</a></li>
+                            <li><span>Email:</span><a href="#">tupyiro.rw</a></li>
+                            <li><span>Address:</span><a href="#">KN 207 AVE</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<script src="./js/test.js"></script>
+</body>
+</html>
